@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "cgpt-streamlit"
+version = "0.1.0"
+description = ""
+authors = ["Paul Onyekwelu <onyekwelupaulo@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+openai = "^1.14.3"
+langchain = "^0.1.13"
+langchain-openai = "^0.1.1"
+tiktoken = "^0.6.0"
+python-dotenv = "^1.0.1"
+streamlit = "^1.32.2"
+streamlit-chat = "^0.1.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

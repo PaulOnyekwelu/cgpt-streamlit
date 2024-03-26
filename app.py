@@ -44,9 +44,6 @@ if len(st.session_state.messages) >= 1:
         )
 
 
-st.session_state.messages
-
-
 for i, msg in enumerate(st.session_state.messages[1:]):
     if i % 2 == 0:
         message(msg.content, is_user=True, key=f"{i}-😄")
